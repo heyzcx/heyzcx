@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>往昔帝国的幽影</b> · 圣巴尔多禄茂教堂，法兰克福，德国 (© AlxeyPnferov/Getty Images) · 20261030</sub>
+  <br/><sub><b>林间迷雾</b> · 黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images) · 20261031</sub>
 </div>
 <!-- BING_END -->
 
