@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>林间迷雾</b> · 黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images) · 20261031</sub>
+  <br/><sub><b>写在冰上的未来</b> · 北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock) · 20261101</sub>
 </div>
 <!-- BING_END -->
 
