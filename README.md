@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>写在冰上的未来</b> · 北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock) · 20261101</sub>
+  <br/><sub><b>群峰间的宁静</b> · 布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利 (© leonid_tit/Getty Images) · 20261102</sub>
 </div>
 <!-- BING_END -->
 
