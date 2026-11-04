@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>群峰间的宁静</b> · 布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利 (© leonid_tit/Getty Images) · 20261102</sub>
+  <br/><sub><b>泛舟如画秋林</b> · 五彩落羽杉间划船的人们，宣城，安徽省，中国 (© Jackal Pan/Getty Images) · 20261103</sub>
 </div>
 <!-- BING_END -->
 
