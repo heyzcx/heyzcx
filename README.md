@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>向山巅再迈一步</b> · 石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images) · 20261104</sub>
+  <br/><sub><b>穿越毛伊岛的绿色隧道</b> · 竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国 (© MNStudio/Getty Images) · 20261105</sub>
 </div>
 <!-- BING_END -->
 
