@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Do a different small task each day
+      - name: A different task every day
         run: |
           python3 - <<'PYEOF'
           import hashlib, re
@@ -29,29 +29,61 @@ jobs:
               print("Not the target hour yet, skipping.")
               raise SystemExit(0)
           readme = open("README.md", encoding="utf-8").read()
-          task = h % 3
+          def update_date(r):
+              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", r)
+              assert n == 1, "date line not found"
+              return new
+          task = h % 8
           if task == 0:
-              print("today's task: update date line")
-              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", readme)
-              assert n == 1
+              print("task: update date line")
+              new = update_date(readme)
           elif task == 1:
-              print("today's task: rotate exploring list")
+              print("task: rotate exploring list")
               m = re.search(r'"currently_exploring": \[(.*?)\]', readme, re.S)
               items = re.findall(r'"([^"]+)"', m.group(1))
               items = items[1:] + items[:1]
               block = '"currently_exploring": [\n    ' + ',\n    '.join(f'"{i}"' for i in items) + '\n  ]'
-              new = readme[:m.start()] + block + readme[m.end():]
-              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", new)
-              assert n == 1
-          else:
-              print("today's task: rotate a recent star to the top")
-              m = re.search(r"(## ⭐ Recent Stars\n\n```bash\n)(\$ star [^\n]+\n)", readme)
-              stars = re.findall(r"\$ star [^\n]+\n", readme[m.start():])
+              new = update_date(readme[:m.start()] + block + readme[m.end():])
+          elif task == 2:
+              print("task: rotate recent stars")
+              m = re.search(r"## ⭐ Recent Stars\n\n```bash\n((?:\$ star [^\n]+\n)+)```", readme)
+              stars = re.findall(r"\$ star [^\n]+\n", m.group(1))
               stars = stars[1:] + stars[:1]
               block = "## ⭐ Recent Stars\n\n```bash\n" + "".join(stars) + "```"
-              new = readme[:m.start()] + block + readme[m.end():]
-              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", new)
-              assert n == 1
+              new = update_date(readme[:m.start()] + block + readme[m.end():])
+          elif task == 3:
+              print("task: rotate projects table")
+              m = re.search(r"(## // Projects\n\n\| 项目 \| 一句话介绍 \|\n\| --- \| --- \|\n)((?:\| \[.*?\|.*?\n)+)", readme)
+              rows = re.findall(r"\| \[.*?\|.*?\n", m.group(2))
+              rows = rows[1:] + rows[:1]
+              new = update_date(readme[:m.start()] + m.group(1) + "".join(rows) + readme[m.end():])
+          elif task == 4:
+              print("task: rotate currently list")
+              m = re.search(r"(## // Currently\n\n```yaml\ncurrently:\n)((?:  - .*\n)+)```", readme)
+              lines = re.findall(r"  - .*\n", m.group(2))
+              lines = lines[1:] + lines[:1]
+              new = update_date(readme[:m.start()] + m.group(1) + "".join(lines) + "```" + readme[m.end():])
+          elif task == 5:
+              print("task: rotate interests")
+              m = re.search(r'"interests": \[(.*?)\]', readme, re.S)
+              items = re.findall(r'"([^"]+)"', m.group(1))
+              items = items[1:] + items[:1]
+              block = '"interests": [\n    ' + ',\n    '.join(f'"{i}"' for i in items) + '\n  ]'
+              new = update_date(readme[:m.start()] + block + readme[m.end():])
+          elif task == 6:
+              print("task: rotate tech badges")
+              m = re.search(r"(## 🛠 Tools & Tech\n\n<div align=\"center\">\n)((?:  <img [^\n]+\n)+)(</div>)", readme)
+              imgs = re.findall(r"  <img [^\n]+\n", m.group(2))
+              imgs = imgs[1:] + imgs[:1]
+              new = update_date(readme[:m.start()] + m.group(1) + "".join(imgs) + m.group(3) + readme[m.end():])
+          else:
+              print("task: append daily log entry")
+              new = update_date(readme)
+              line = f"- {today}：日常更新"
+              if "## 📅 每日记录" not in new:
+                  new = new.rstrip() + f"\n\n## 📅 每日记录\n\n{line}\n"
+              else:
+                  new = new.rstrip() + f"\n{line}\n"
           if new == readme:
               print("Already done today.")
               raise SystemExit(0)
