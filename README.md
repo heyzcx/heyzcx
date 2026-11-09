@@ -21,7 +21,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>光芒四射的节日</b> · 排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images) · 20261107</sub>
+  <br/><sub><b>艺术与韵律交汇之地</b> · 特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images) · 20261108</sub>
 </div>
 <!-- BING_END -->
 
