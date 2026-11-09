@@ -1,0 +1,67 @@
+name: Daily contribution
+
+on:
+  schedule:
+    - cron: "0 13-23,0-2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Do a different small task each day
+        run: |
+          python3 - <<'PYEOF'
+          import hashlib, re
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo("America/New_York"))
+          today = now.strftime("%Y-%m-%d")
+          h = int(hashlib.sha256(today.encode()).hexdigest(), 16)
+          target = 8 + (h % 14)
+          print(f"today={today} now_hour={now.hour} target_hour={target}")
+          if now.hour != target:
+              print("Not the target hour yet, skipping.")
+              raise SystemExit(0)
+          readme = open("README.md", encoding="utf-8").read()
+          task = h % 3
+          if task == 0:
+              print("today's task: update date line")
+              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", readme)
+              assert n == 1
+          elif task == 1:
+              print("today's task: rotate exploring list")
+              m = re.search(r'"currently_exploring": \[(.*?)\]', readme, re.S)
+              items = re.findall(r'"([^"]+)"', m.group(1))
+              items = items[1:] + items[:1]
+              block = '"currently_exploring": [\n    ' + ',\n    '.join(f'"{i}"' for i in items) + '\n  ]'
+              new = readme[:m.start()] + block + readme[m.end():]
+              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", new)
+              assert n == 1
+          else:
+              print("today's task: rotate a recent star to the top")
+              m = re.search(r"(## ⭐ Recent Stars\n\n```bash\n)(\$ star [^\n]+\n)", readme)
+              stars = re.findall(r"\$ star [^\n]+\n", readme[m.start():])
+              stars = stars[1:] + stars[:1]
+              block = "## ⭐ Recent Stars\n\n```bash\n" + "".join(stars) + "```"
+              new = readme[:m.start()] + block + readme[m.end():]
+              new, n = re.subn(r"> 最后更新：\d{4}-\d{2}-\d{2}", f"> 最后更新：{today}", new)
+              assert n == 1
+          if new == readme:
+              print("Already done today.")
+              raise SystemExit(0)
+          open("README.md", "w", encoding="utf-8").write(new)
+          print("Done, task", task, today)
+          PYEOF
+      - name: Commit changes
+        run: |
+          git config user.name "ZHOU"
+          git config user.email "35290876+heyzcx@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: daily update $(TZ=America/New_York date +%F)"
+          git push
