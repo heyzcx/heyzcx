@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=ZHOU&fontSize=74&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%C2%B7%20Self-hosting%20%C2%B7%20Open%20Source&descSize=16&descAlignY=56"/>
 
-<a href="https://github.com/mrzhoucx"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=%24%20whoami%20%3A%20ZHOU;AI%20%26%20LLM%20tinkerer;Self-hosting%20%26%20VPS%20explorer;Small%20projects%2C%20real%20commits" alt="typing"/></a>
+<a href="https://github.com/heyzcx"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=%24%20whoami%20%3A%20ZHOU;AI%20%26%20LLM%20tinkerer;Self-hosting%20%26%20VPS%20explorer;Small%20projects%2C%20real%20commits" alt="typing"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=mrzhoucx&label=Profile%20views&color=0e75b6&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=heyzcx&label=Profile%20views&color=0e75b6&style=flat-square"/>
 
 </div>
 
@@ -15,6 +15,8 @@ ZHOU
 # 一颗有思想的韭菜。
 # 喜欢折腾、学习和记录，平时会做一些小项目。
 ```
+
+> 最后更新：2026-11-09
 
 ## 🖼 必应每日一图 · Bing Daily
 
@@ -28,16 +30,16 @@ ZHOU
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mrzhoucx&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrzhoucx&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=heyzcx&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyzcx&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=mrzhoucx&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=heyzcx&theme=tokyonight&hide_border=true"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrzhoucx&theme=tokyo-night&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=heyzcx&theme=tokyo-night&hide_border=true"/>
 </div>
 
 ## 🛠 Tools & Tech
@@ -45,6 +47,10 @@ ZHOU
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/ROCm-ED1C24?style=for-the-badge&logo=amd&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -54,6 +60,9 @@ ZHOU
 tools:
   - Node.js
   - Python
+  - PyTorch / Hugging Face
+  - ROCm
+  - Docker
   - Linux
   - VPS / Self-hosting
   - Git
@@ -100,17 +109,19 @@ currently:
 
 ## // Projects
 
-```json
-{
-  "projects": [
-    {
-      "name": "vps-monitor",
-      "url": "https://github.com/mrzhoucx/vps-monitor",
-      "description": "Simple VPS system monitor — check CPU, memory, disk usage"
-    }
-  ]
-}
-```
+| 项目 | 一句话介绍 |
+| --- | --- |
+| [vps-monitor](https://github.com/heyzcx/vps-monitor) | 查 VPS 的 CPU、内存、磁盘占用 |
+| [url-checker](https://github.com/heyzcx/url-checker) | 查一批网址的状态码和延迟 |
+| [cert-checker](https://github.com/heyzcx/cert-checker) | 查 TLS 证书过期天数，防过期 |
+| [port-checker](https://github.com/heyzcx/port-checker) | 查 host:port 通不通、延迟 |
+| [ping-monitor](https://github.com/heyzcx/ping-monitor) | ping 并记延迟和丢包到 CSV |
+| [csv-summary](https://github.com/heyzcx/csv-summary) | CSV 一眼汇总：行数、列统计 |
+| [json-format](https://github.com/heyzcx/json-format) | JSON 格式化、压缩、排序、校验 |
+| [log-analyzer](https://github.com/heyzcx/log-analyzer) | 汇总日志，按级别统计、高频报错 |
+| [text-cleaner](https://github.com/heyzcx/text-cleaner) | 清理文本文件，去尾空格、统一换行 |
+| [dup-finder](https://github.com/heyzcx/dup-finder) | 按内容哈希找重复文件 |
+| [pass-gen](https://github.com/heyzcx/pass-gen) | 生成随机密码和口令 |
 
 ## ⭐ Recent Stars
 
@@ -136,9 +147,9 @@ $ star Nutlope/hallmark # Anti-AI-slop design skill for Claude Code, Cursor, and
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/mrzhoucx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
   </picture>
 </div>
 
