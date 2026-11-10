@@ -147,9 +147,9 @@ $ star Nutlope/hallmark # Anti-AI-slop design skill for Claude Code, Cursor, and
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/heyzcx/mrzhoucx/output/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyzcx/heyzcx/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heyzcx/heyzcx/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/heyzcx/heyzcx/output/github-contribution-grid-snake.svg"/>
   </picture>
 </div>
 
