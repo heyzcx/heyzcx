@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>奇妙纷呈的森林</b> · 大西洋森林，巴西 (© FG Trade/Getty Images) · 20261110</sub>
+  <br/><sub><b>没有建筑师的建筑杰作</b> · 北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images) · 20261111</sub>
 </div>
 <!-- BING_END -->
 
