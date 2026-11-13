@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>没有建筑师的建筑杰作</b> · 北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images) · 20261111</sub>
+  <br/><sub><b>冰下秘境</b> · 亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images) · 20261112</sub>
 </div>
 <!-- BING_END -->
 
