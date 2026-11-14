@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>冰下秘境</b> · 亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images) · 20261112</sub>
+  <br/><sub><b>唯有向上发展</b> · 中国香港维多利亚港 (© Juan Romero/Cavan Images) · 20261113</sub>
 </div>
 <!-- BING_END -->
 
