@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>霜染枝叶</b> · 覆霜的红叶杜鹃 (© avoferten/Shutterstock) · 20261114</sub>
+  <br/><sub><b>历经岁月，屹立不倒</b> · 美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images) · 20261115</sub>
 </div>
 <!-- BING_END -->
 
