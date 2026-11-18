@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>走进广阔的大自然</b> · 雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images) · 20261116</sub>
+  <br/><sub><b>从黄昏狩猎到黎明</b> · 一对仓鸮 (© Zahoor Salmi/Getty Images) · 20261117</sub>
 </div>
 <!-- BING_END -->
 
