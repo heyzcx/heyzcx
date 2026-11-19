@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>从黄昏狩猎到黎明</b> · 一对仓鸮 (© Zahoor Salmi/Getty Images) · 20261117</sub>
+  <br/><sub><b>思想在此成形</b> · 雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock) · 20261118</sub>
 </div>
 <!-- BING_END -->
 
