@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>思想在此成形</b> · 雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock) · 20261118</sub>
+  <br/><sub><b>在峡湾中大快朵颐</b> · 正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures) · 20261119</sub>
 </div>
 <!-- BING_END -->
 
