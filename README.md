@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>在峡湾中大快朵颐</b> · 正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures) · 20261119</sub>
+  <br/><sub><b>陶瓦屋顶下的梦</b> · 法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images) · 20261120</sub>
 </div>
 <!-- BING_END -->
 
