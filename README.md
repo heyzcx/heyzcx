@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>陶瓦屋顶下的梦</b> · 法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images) · 20261120</sub>
+  <br/><sub><b>海浪间的庇护所</b> · 西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂 (© Tramont_ana/Getty Images) · 20261121</sub>
 </div>
 <!-- BING_END -->
 
