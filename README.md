@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>海浪间的庇护所</b> · 西班牙坎塔布里亚自治区的圣胡斯塔隐修院与小教堂 (© Tramont_ana/Getty Images) · 20261121</sub>
+  <br/><sub><b>自然中的几何之美</b> · 蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images) · 20261122</sub>
 </div>
 <!-- BING_END -->
 
