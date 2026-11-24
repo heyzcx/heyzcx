@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>自然中的几何之美</b> · 蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images) · 20261122</sub>
+  <br/><sub><b>秋日的保护色</b> · 红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures) · 20261123</sub>
 </div>
 <!-- BING_END -->
 
