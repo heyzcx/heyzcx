@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>秋日的保护色</b> · 红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures) · 20261123</sub>
+  <br/><sub><b>美国西南部的一场雪</b> · 日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy) · 20261124</sub>
 </div>
 <!-- BING_END -->
 
