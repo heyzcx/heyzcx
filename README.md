@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>美国西南部的一场雪</b> · 日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy) · 20261124</sub>
+  <br/><sub><b>彩虹落下的地方</b> · 怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images) · 20261125</sub>
 </div>
 <!-- BING_END -->
 
