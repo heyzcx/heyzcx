@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>彩虹落下的地方</b> · 怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images) · 20261125</sub>
+  <br/><sub><b>灰金交织的峡谷</b> · 夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden) · 20261126</sub>
 </div>
 <!-- BING_END -->
 
