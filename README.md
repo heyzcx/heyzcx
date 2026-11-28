@@ -16,7 +16,7 @@ ZHOU
 # 喜欢折腾、学习和记录，平时会做一些小项目。
 ```
 
-> 最后更新：2026-11-09
+> 最后更新：2026-11-28
 
 ## 🖼 必应每日一图 · Bing Daily
 
@@ -102,7 +102,7 @@ tools:
 
 ```yaml
 currently:
-  - Building QQ and Telegram bots powered by DeepSeek
+  - Building one small open-source tool every day
   - exploring popular open source projects
   - managing VPS infrastructure
 ```
@@ -122,6 +122,25 @@ currently:
 | [text-cleaner](https://github.com/heyzcx/text-cleaner) | 清理文本文件，去尾空格、统一换行 |
 | [dup-finder](https://github.com/heyzcx/dup-finder) | 按内容哈希找重复文件 |
 | [pass-gen](https://github.com/heyzcx/pass-gen) | 生成随机密码和口令 |
+| [md-toc](https://github.com/heyzcx/md-toc) | 给 Markdown 文件生成/更新目录 |
+| [batch-rename](https://github.com/heyzcx/batch-rename) | 按规则批量重命名文件 |
+| [file-hasher](https://github.com/heyzcx/file-hasher) | 计算和校验文件哈希（md5/sha256 等） |
+| [disk-usage](https://github.com/heyzcx/disk-usage) | 看磁盘空间都被谁占了 |
+| [cron-next](https://github.com/heyzcx/cron-next) | 算 cron 表达式接下来几次运行时间 |
+| [ip-info](https://github.com/heyzcx/ip-info) | 查本机公网 IP、位置和运营商 |
+| [dns-lookup](https://github.com/heyzcx/dns-lookup) | 域名解析和 IP 反查 |
+| [http-status](https://github.com/heyzcx/http-status) | 查网址的 HTTP 状态码和响应时间 |
+| [tz-convert](https://github.com/heyzcx/tz-convert) | 跨时区换算日期时间 |
+| [epoch-convert](https://github.com/heyzcx/epoch-convert) | Unix 时间戳和日期互转 |
+| [json-diff](https://github.com/heyzcx/json-diff) | 按键路径对比两个 JSON 的差异 |
+| [expense-tracker](https://github.com/heyzcx/expense-tracker) | 在终端里记日常开销 |
+| [unit-convert](https://github.com/heyzcx/unit-convert) | 单位换算：长度、重量、温度、体积、数据大小 |
+| [todo-cli](https://github.com/heyzcx/todo-cli) | 在终端里管理待办 |
+| [csv-to-json](https://github.com/heyzcx/csv-to-json) | CSV 转 JSON |
+| [word-count](https://github.com/heyzcx/word-count) | 统计文本行数、词数、字数 |
+| [rss-reader](https://github.com/heyzcx/rss-reader) | 读 RSS/Atom 订阅的最新文章 |
+| [stock-quote](https://github.com/heyzcx/stock-quote) | 在终端查股价（Stooq，无需 key） |
+| [whois-lookup](https://github.com/heyzcx/whois-lookup) | 在终端查域名 WHOIS、到期日和 NS |
 
 ## ⭐ Recent Stars
 
