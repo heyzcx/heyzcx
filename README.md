@@ -23,7 +23,7 @@ ZHOU
 <!-- BING_START -->
 <div align="center">
   <img src="assets/bing-daily.jpg" alt="Bing daily image" width="100%"/>
-  <br/><sub><b>灰金交织的峡谷</b> · 夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden) · 20261126</sub>
+  <br/><sub><b>跨越时光的桥梁</b> · 捷克布拉格老城区与伏尔塔瓦河 (© Lara_Uhryn/Getty Images) · 20261127</sub>
 </div>
 <!-- BING_END -->
 
